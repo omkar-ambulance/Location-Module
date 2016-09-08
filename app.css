@@ -1,0 +1,385 @@
+html,
+body {
+  height: 100%;
+width: 100%;
+}
+
+
+section
+{  height: 94vh;
+
+margin-top: -1%;
+}
+.dashboard-container
+{
+  background-color: #f3f3f3;
+padding-left: 0%;
+}
+.dashboard-container > .row
+{
+
+padding: 0;
+  }
+
+.dashboard-col
+{
+  padding-left: 0;
+padding-top: 0;
+  margin: 0;
+
+  height: 94vh;
+}
+.dashboard-col > form,.box
+{
+  padding:1%;
+ 
+ border:2px solid #eee;
+background-color: #ffffff;
+    box-sizing:border-box;
+    box-shadow: 2px;
+}
+.box1{
+
+  padding:1%;
+ 
+ border:2px solid #eee;
+background-color: #ffffff;
+    box-sizing:border-box;
+  margin-left:2%;
+
+margin-right:2%;
+}
+.height_width_100
+{
+   
+height: 94vh;
+   
+    width: 101.5%;
+}
+
+
+/*padding20 used in operator>div .container*/
+.paddding20
+{
+  padding-left: 10%;
+
+padding-right: 10%;
+}
+/* navbar css*/
+.navbar
+{
+
+background-color:#FF3636;
+
+
+border-bottom-style: inset;
+border-bottom-color: #FF3636;
+
+}
+.navbar > div 
+{
+/*padding: 10%;*/
+height: 20px;
+}
+
+ .navbar-default .navbar-nav > .active > a {
+      color:  #ffffff;
+     font-weight: bold;
+ 
+ }
+.navbar-header >.navbar-brand
+{
+  color: #ffffff;
+
+}
+.navbar-nav > li > a {
+
+      color:  #ffffff ;
+      font-size: small;
+      font-weight: bold;
+      background: #FF3636 ;
+ }
+.navbar-header{
+      font-weight: bolder;
+ }
+.navbar-nav > li > a:hover, 
+.navbar-nav > li > a:focus {
+   color: #FF3636;
+   font-weight: bold;
+
+      background-color: #3cf;
+ }
+
+.navbar-header a,.nav li a
+{
+  
+  font-weight:bolder;
+}
+.nav-center
+{
+position: relative;
+left: 20%;
+
+}
+
+
+/* Text Css  */
+
+.txt-higlight
+{
+  background-color: #FF3636;
+  color: #ffffff;
+}
+
+/*anchor tag <a> Css  */
+
+.link-red
+{
+  color: red;
+}
+
+/*.op_am_branches
+{
+  display: inline;
+}*/
+/*
+show operation page css*/
+.verification_status_div
+{
+  position: absolute;
+
+
+  top: 0px;
+  right: 0px;
+
+}
+.required_inputs_star
+{
+  color: red;
+}
+#op_v_status
+{
+  font-size: x-large;
+
+}
+/*
+hide contact details tr input border*/
+.tr_inputs_cd
+{
+
+border:none;
+
+}
+
+.img-thumbnail
+{
+  width: 50%;
+  height: 50%;
+}
+
+
+/**
+   * Error Class with red color
+   *
+   *
+   */
+.error
+{
+  background: red;
+  color: #ffffff;
+}
+
+#gallery-images,.gallery-images{
+    width:100%;
+    margin:0 auto; /* Centres page */
+}
+
+#gallery-images > ul ,.gallery-images >ul{
+    width:100%;
+    padding-bottom:2%;
+    background:#ccc;
+    float:left;
+    list-style: none;
+}
+
+#gallery-images > ul > li,.gallery-images >ul>li {
+    width:30%;
+    margin:2.5% 0 0 2.5%;
+    float:left;
+    position:relative; /* Needed for z-indexing later */
+}
+#gallery-images > ul > li img ,.gallery-images >ul >li img{
+    max-width:100%;
+    border:2px solid #eee;
+  height: 150px;
+    box-sizing:border-box; /* Don't forget vendor prefixes! */
+}
+
+
+/* Dashboard Css */
+.dashb_table 
+{
+
+}
+.dashb_table th
+{
+text-align: center;
+
+}
+.dashb_table td 
+{
+  
+text-align: center;
+font-size: large;
+
+}
+.op_img
+{
+width: 100%;
+height: 100%;
+}
+.collapse_btn
+{
+
+  right: 20%;
+  margin-top: -1%;
+  margin-right: 2%;
+
+
+}
+.operator_a_m_stats
+{
+padding: 0;
+}
+
+
+/* Operator Search Result CSS*/
+.user-pad {
+    padding: 0px 0px;
+}
+
+
+.user-details {
+    background: #eee;
+    min-height: 333px;
+}
+
+.user-image {
+  max-height:200px;
+  padding: 10px 0px 0px 0px;
+  overflow:hidden;
+}
+
+
+.free_label
+{
+    margin-top: -2%;
+}
+
+// Color
+ .color1{
+  background-color: #6ACDCA;
+ }
+
+
+.sub_plans_result
+{
+  background-color: #FFEBCD;
+      max-width:100%;
+      border:2px;
+    box-sizing:border-box;
+    border-bottom: 2px;
+    border-bottom-color:#3cf; 
+}
+.op_transaction_row
+{
+  background-color: #cae1ff;
+  padding: 1%;
+}
+.op_transaction_row > .trans_i
+{
+ float: left;
+}
+.op_transaction_row > .trans_price
+{
+
+
+ float: right;}
+.op_am_transaction_row
+{
+   background-color: #283a90;
+  padding: 2%;
+  color: #ffffff;
+
+
+  border-bottom: inset;
+  border-bottom-color: #ffffff;
+}
+.op_am_transaction_row > .am_trans_i
+{
+ float: left;
+}
+.op_am_transaction_row > .am_trans_price
+{
+
+ 
+ float: right;
+}
+.op_am_transaction_row > .am_trans_expiry
+{
+
+}
+
+
+/*blinking css*/
+
+.blink {
+  animation: blink-animation 0.1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 0.1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
+.red {
+  background-color: red;
+}
+.green {
+  background-color: green;
+}
+.blue {
+  background-color: blue;
+}
+.yellow {
+  background-color: yellow;
+}
+.sphere {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  text-align: center;  
+  vertical-align: top;
+  margin-top:1px;
+  font-size: 500%;
+  position: relative;
+  box-shadow: inset -10px -10px 100px #aadd6d;
+  display: inline-block;
+  }
+.sphere::after {
+
+  content: '';
+  height: 45%;
+  width: 12%;
+  position: absolute;
+  top: 4%;
+  left: 15%;
+  border-radius: 50%;
+  transform: rotate(40deg);
+}
